@@ -1,0 +1,74 @@
+*,
+*:before,
+*:after {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+body {
+  background: #c5d8d1;
+  font: 300 16px/22px "Lato" "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+#main {
+  width: 960px;
+  margin: 0 auto;
+}
+#title h1 {
+  font-size: 33px;
+  letter-spacing: .5px;
+}
+#title h5 {
+  font-size: 18px;
+  font-weight: normal; 
+}
+#img-div {
+  background-color: #fff;
+  padding: 48px;
+  margin-bottom: 22px;
+}
+#image {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+#img-caption {
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
+#tribute-info h2{
+ text-align: center;
+ margin-bottom: 30px;
+ margin-top: 30px;
+}
+#tribute-info ul  li {
+  margin-right: auto;
+  margin-left: auto;
+  text-align: justify;
+  margin-bottom: 16px;
+  font-family: Helvetica, Arial, sans-serif;
+  list-style: none;
+}
+#tribute-info {
+  margin-bottom: 30px;
+  width: 960px;
+}
+em {
+  font-size: 16px;
+  text-align: center;
+  justify-content: center;
+}
+#tribute-link {
+  color: blue;
+}
+#tribute-link:hover {
+  color: #648880;
+  cursor: pointer;
+}
+p {
+  font-family: Helvetica;
+  font-size: large;
+  font-weight: bold;
+}
